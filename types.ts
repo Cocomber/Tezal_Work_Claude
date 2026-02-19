@@ -33,4 +33,10 @@ export interface Task {
   tags: string[];
   status: 'open' | 'active' | 'completed';
   category: string;
+  // New fields for Tezal marketplace
+  clientRating?: number;
+  clientTaskCount?: number;
+  district?: string;
+  date?: string;
+  hasPhoto?: boolean;
 }
